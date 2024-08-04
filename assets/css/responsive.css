@@ -1,0 +1,122 @@
+/* 
+Cấu hình
+PC: >= 1024px
+Tablet: >= 740px && < 1024px
+Mobile: < 740px
+ */
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+
+/* tablet and mobile */
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    #footer .social-list {
+        font-size: 15px;
+    }
+
+    .social-list a {
+        margin: 0 8px;
+        font-size: 40px;
+    }
+
+    #footer .copyright a {
+        font-size: 15px;
+        color: inherit;
+        padding: 15px 0;
+    }
+}
+
+
+/* mobile */
+@media (max-width: 739px) { 
+    #header {
+        overflow: hidden;
+    }
+
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+    
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    #slider .text-content {
+        bottom: 6%;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav li a {
+        text-decoration: none;
+        line-height: 46.5px;
+        padding: 3px 20px;
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        width: 100%;
+        line-height: 47px;
+        padding: 2px 41px;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #content .member-img {
+        width: 60%;
+        height: auto;
+    }
+
+    .place-img {
+        height: auto;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+
+    .contact-info {
+        margin-bottom: 15px;
+        line-height: 2;
+    }
+
+    .modal-container {
+        max-width: calc(100% - 20px);
+    }
+
+}
